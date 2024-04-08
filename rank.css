@@ -1,0 +1,239 @@
+body {
+    height: 100%;
+    background-color:rgb(240,240,240);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color:rgb(240,240,240);
+}
+
+.container {
+
+    
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(240,240,240);
+}
+
+.rank-top {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.rjator {
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+.rjatorckd {
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+}
+.rank-body {
+    width: 100%;
+    height: 80%;
+    
+}
+
+.body1 {
+    
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    
+    
+    
+}
+.body1-1 {
+    
+    width: 600px;
+    height: 205px;
+    margin-top: 20px;
+}
+.body1-0 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 95%;
+}
+.body1-00 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+}
+.bodybot1 {
+    width: 30vw;
+    height: 100px;
+}
+.rank-footer {
+    width: 100%;
+    height: 10%;
+}
+
+.rank-top1 {
+    
+    width: 50px;
+    height: 50px;
+    
+    display: flex;
+    
+
+}
+.home {
+    width: 50px;
+    height: 50px;
+    background-image: url(./instagram-3814060_1920.png);
+    background-size: cover;
+    
+}
+.po {
+    width: 50px;
+    height: 50px;
+    background-image: url(./youtube-2935416_1920.png);
+    background-size: cover;
+}
+
+
+.rankbox {
+    width: 50%;
+    height: 50px;
+    
+    display: flex;
+}
+.dodo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+.dodo1 {
+    width: 50%;
+    height: 50px;
+    display: flex;
+
+}
+.dodo2 {
+    width: 50%;
+    height: 50px;
+    display: flex;
+
+    justify-content: end;
+}
+
+.rankbox2 {
+    
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.rank-top2 {
+    width: 50px;
+    height: 50px;
+    
+    background-image: url(./instagram-3814061_1920.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.kill {
+    border: 1px solid snow;
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.kill2 {
+    border: 1px solid snow;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: rgb(10,8,9);
+    
+    
+    
+}
+.kill3 {
+    width: 30%;
+    height: 100%;
+    
+    background-image: url(./maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kill4 {
+    width: 40%;
+    height: 100%;
+    
+}
+
+.q {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    
+}
+.q1 {
+    display: flex;
+    width: 30%;
+    background-image: url(./우일.jpg);
+    background-size: cover;
+}
+.w1 {
+    display: flex;
+    width: 30%;
+    background-image: url(./제목\ 없음.png);
+    background-size: contain;
+    
+}
+.e1 {
+    display: flex;
+    width: 30%;
+    background-image: url(./unnamed\ \(1\).jpg);
+    background-size: cover;
+}
+.r1 {
+    display: flex;
+    width: 30%;
+    background-image: url(./qhRu0cMAFP9u3tKFEDYYWmkeEEiESPPJP_GHs6IJ8Sri3TC7hbcr69EAIc1AtuH8g6pG8x2l82F1kipFk7aZqA.webp);
+    background-size: cover;
+}
+.coxld {
+    width: 80%;
+    height: 500px;
+    
+    overflow: auto;
+    
+}
+.ghkausgkeks {
+    width: 100%;
+    display: flex;
+
+}
+.ghkausgkeks1 {
+    width: 20%;
+    
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ghhkausgkeks2 {
+    width: 100%;
+    height: 130px;
+    background-color: aqua;
+}
