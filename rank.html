@@ -15,6 +15,12 @@
 
 <body>
     <header>
+        <div class="left-nav">
+            <div class="redbox1"><label><a href="" class="oll3"><div class="oll"></div><div class="oll2">로그인</div></a></label></div>
+            
+            <div class="redbox2"><label><a href="" class="oll3"><div class="oll"></div><div class="oll2">설정</div></a></label></div>
+        </div>
+        <div class="overlay"></div>
         
         <div class="rank-top">
             <div class="kill">
@@ -23,8 +29,12 @@
                         <a class="home" href="rank.html"></a>
                     </div>
                     <div class="rank-top1"><a  class="po" href="rank2.html"></a></div>
-                    <input type="text" class="rjatorckd">
-                    <input type="button" value="검색" class="rjator">
+                    <form>
+                    
+                        <input type="text" class="rjatorckd">
+                        
+                        <label><input type="button" value="검색" class="rjator"></label></form>
+                
                 </div>
                 <div class="rankbox2">
                     <div class="rank-top2"></div>
@@ -41,6 +51,8 @@
         </div>
     </header>
     <div class="container">
+    
+    
 
         <div class="rank-body">
             <div class="body1">
@@ -100,6 +112,20 @@
 
 
     </div>
+    
+    
+        <script>
+        document.querySelector('.rank-top2').addEventListener('click', function(){
+            document.querySelector('.left-nav').classList.toggle('display-block');
+            document.querySelector('.overlay').classList.toggle('display-block');
+        });
+
+        document.querySelector('.overlay').addEventListener('click', ()=>{
+            document.querySelector('.left-nav').classList.remove('display-block');
+            document.querySelector('.overlay').classList.remove('display-block');
+        });
+    </script>
+    
 </body>
 
 </html>
