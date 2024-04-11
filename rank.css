@@ -313,3 +313,31 @@ header {
 .oll3 {
     display: flex;
 }
+.hoho {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoho2 {
+    background-color: black;
+    width: 200px;
+    height: 400px;
+}
+.hoho3 {
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+}
+.hoho4 {
+    font-size: 30px;
+    margin-left: 55px;
+    color: white;
+}
+.hoho5 {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
