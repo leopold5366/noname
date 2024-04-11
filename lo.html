@@ -10,10 +10,27 @@
     <div class="hoho">
         <div class="hoho2">
             <div class="hoho4">로그인</div>
-            <input class="hoho3" type="text"></input>
-            <input class="hoho3" type="password"></input>
-            <input class="hoho5" type="button" value="로그인"></input>
+            
+            <input class="hoho3" type="text" placeholder="아이디">
+            <input class="hoho6" type="password" placeholder="비밀번호">
+            <input class="hoho5" type="button" value="로그인">
+        
         </div>
     </div>
+    <script>
+        document.querySelector('.hoho5').addEventListener('click', ()=>{
+            alert("아이디가 틀렸거나 없습니다.");
+        });
+        document.querySelector('.hoho3').addEventListener('keydown', (e)=>{
+            if (event.keyCode==13){
+                alert("아이디가 틀렸거나 없습니다.");
+            }
+        });
+        document.querySelector('.hoho6').addEventListener('keydown', (e)=>{
+            if (event.keyCode==13){
+                alert("아이디가 틀렸거나 없습니다.");
+            }
+        });
+    </script>
 </body>
 </html>
