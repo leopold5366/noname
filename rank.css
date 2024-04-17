@@ -55,7 +55,7 @@ header {
 }
 .body1-1 {
     
-    width: 600px;
+    width: 200px;
     height: 205px;
     margin-top: 20px;
 }
@@ -157,6 +157,7 @@ header {
     width: 100%;
     height: 40%;
     display: flex;
+    flex-wrap: wrap;
 }
 .kill2 {
     border: 1px solid snow;
@@ -238,13 +239,9 @@ header {
     
 }
 .video-01 {
-    object-fit: fill;
     width: 100%;
     height: 100%;
 }
-
-
-
 .left-nav {
     width:300px;
     /* height:100%; 부모요소가 존재하는 경우*/
@@ -255,7 +252,6 @@ header {
     z-index: 2;
     display: none;
 }
-
 .overlay {
     width:100vw;
     height:100vh;
@@ -267,17 +263,14 @@ header {
     top:0;
     display: none;
 }
-
 .display-block {
     display: block;
 }
-
 .main {
     width:100vw;
     height:100vh;
     background-color:blanchedalmond;
 }
-
 #btn {
     position: fixed;
     right: 50px;
@@ -296,8 +289,6 @@ header {
     margin-top: 700px;
     margin-left: 50px;
 }
-
-
 .oll {
     background-image: url(./자료/instagram-3814056_1280.webp);
     background-size: cover;
@@ -351,4 +342,61 @@ header {
     height: 30px;
     margin: 70px;
     margin-left: 50px;
+}
+.rjator {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    border: 1px solid gray;
+}
+
+.rjatorckd {
+    width: 500px;
+    height: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-right: none;
+}
+.po {
+margin-top: 10px;
+}
+.home {
+    margin-top: 10px;
+}
+.rank-top2 {
+    margin-top: 10px;
+}
+.rr11 {
+    margin-left: 50px;
+}
+.body1-13 {
+    width: 150px;
+}
+.kill44 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    
+}
+#rr11 {
+    margin: 70px 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+    
+}
+#rr22 {
+    margin: 70px 10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+
 }
